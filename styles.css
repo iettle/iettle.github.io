@@ -8,6 +8,11 @@ h1 {
   animation: loadName 0.5s ease-in;
 }
 
+.container-fluid {
+  width: 80%;
+}
+
+
 .primary {
   color: #896C8E;
 }
