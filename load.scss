@@ -1,0 +1,22 @@
+#loadingbg {
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #896C8E;
+  z-index: 5;
+}
+
+.sq {
+  margin: 60% 5px;
+  height: 25px;
+  width: 25px;
+  background-color: #FFF;
+  display: inline-block;
+  animation: sq-anim 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+@keyframes sq-anim {
+  0% { transform: rotate(0deg); }
+  50%, 100% { transform: rotate(180deg); }
+}
