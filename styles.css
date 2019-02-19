@@ -65,14 +65,18 @@ body {
 
  .col-2 {
    position: relative;
-   display:inline-block;
-   float:none;
+   display: inline-block;
+   float: none;
    text-align: center;
  }
 
 .navicon {
   color: white;
   opacity: 0.7;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  float: none;
 }
 
 .navicon:hover {
@@ -113,10 +117,9 @@ body {
   *                        MOBILE                          *
   **********************************************************/
 
- /* Smartphones (portrait) ----------- */
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .container-fluid {
       width: 90%;
     }
- }
+  }
