@@ -18,6 +18,10 @@ h2, p, ul {
   color: #15224D;
 }
 
+.gray {
+  color: #e1e6ef;
+}
+
 
 .coverimage {
   background-image: url("https://cdn.discordapp.com/attachments/524795353036488707/568960841500852225/trees.png");
